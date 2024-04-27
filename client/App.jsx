@@ -10,7 +10,7 @@ function Message({ content }) {
 
 function App() {
   const initialOptions = {
-    "client-id": "AWa2aBW3CM4lCp3bo_b43TRdIWVUJIPd3VA_VzQKkijb6up1tLytIpQ8IbShOF-VeZLZXMyyoOgvL3BG",
+    "client-id": "YOUR_CLIENT_ID",
     "enable-funding": "paylater,venmo",
     "data-sdk-integration-source": "integrationbuilder_sc",
   };
