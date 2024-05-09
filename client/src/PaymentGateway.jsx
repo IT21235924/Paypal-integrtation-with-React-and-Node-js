@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
-import './App.css'
+import './PaymentGateway.css'
 
 // Renders errors or successfull transactions on the screen.
 function Message({ content }) {
   return <p>{content}</p>;
 }
 
-function App() {
+function PaymentGateway() {
   const initialOptions = {
-    "client-id": "YOUR_CLIENT_ID",
+    "client-id": "AWa2aBW3CM4lCp3bo_b43TRdIWVUJIPd3VA_VzQKkijb6up1tLytIpQ8IbShOF-VeZLZXMyyoOgvL3BG",
     "enable-funding": "paylater,venmo",
     "data-sdk-integration-source": "integrationbuilder_sc",
   };
@@ -119,4 +119,4 @@ function App() {
   );
 }
 
-export default App;
+export default PaymentGateway;
